@@ -1,0 +1,167 @@
+.navbar,
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+} 
+.navbar {
+    background-color: #474C4E;
+}
+.start-header {
+    z-index: 10;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 1440px;
+}
+.container {
+    margin: 0 65px;
+}
+
+/* Start navbar-brand */
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+.navbar-brand:hover {
+    background-color: #1C2123;
+}
+.navbar-brand img {
+   height: 100%;
+   padding: 0.7rem 2rem;
+}
+/* End navbar-brand */
+
+/* Start (ul-left) navbar-nav */
+.navbar {
+    background-color: #1C2123;
+}
+.navbar-nav,
+.nav-link {
+    height: 100%;
+}
+.navbar-left {
+    padding: 12px 143px 11px 16px;
+}
+.navbar-left:hover .navbar-left,
+.navbar-left:hover .search-bar {
+    background-color: #1C2123!important;
+
+}
+#myaccount:hover .myaccount,
+#mycart:hover .mycart {
+    background-color: #1C2123!important;
+}
+
+
+.fa-map-marker-alt {
+    margin-right: 0.3rem;
+}
+.search-box {
+    height: 100%;
+}
+.form-control {
+    position: relative; 
+    margin-right: 1rem;
+    top: 12px;
+    height: 35px;
+    width: 53vw;
+}
+
+.search-btn {
+    position: absolute;
+    color: #999999!important; 
+    font-size: 1.2rem; 
+    top: 17px; 
+    left: 76%;
+}
+/* End (ul-left) navbar-nav */
+
+
+/* Start (ul-right) navbar-nav */
+.nav-link{
+    color: white!important;
+    font-size: 0.9rem;
+}
+.dropdown-right-text {
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+.myaccount {
+    width: 150px;
+    padding-left: 1.5rem!important;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.mycart {
+    width: 130px;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+.fa-shopping-cart {
+    margin-right: 0.5rem;
+}
+
+    /* Start Dropdown Menu */
+    .account-dropdown-menu {
+        width: 20vw;
+        left:auto;
+        right:0px;
+        margin-right: 1rem;
+        padding: 0;
+    }
+    .btn-warning {
+        font-size: 0.9rem;
+        margin: 1.2rem 1rem 1.2rem 1.4rem;
+        width: 85%;
+        height: 43px;
+    }
+    .account-dropdown-menu button,
+    .account-dropdown-menu button:hover {
+        background-color: #E96135;
+        border: 1px solid #E96135;
+        color: white;
+    }
+    .account-dropdown-menu a {
+        font-size: 0.9rem;
+    }
+    .fa-question-circle,
+    .fa-square,
+    .fa-carrot {
+        margin-right: 0.7rem;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    .dropdown-item {
+        padding: 0.9rem 1rem;
+    }
+/* End (ul-right) navbar-nav */
+#navbar {
+    background-color: white!important; 
+    box-shadow: 0 0 5px gray; 
+    height: 47px;
+}
+
+#nav-link {
+    color: gray!important;
+    padding: 1rem 0.5rem;
+    margin: 0 0.5rem;
+    height: 47px;
+}
+#nav-link:hover {
+    background-color: #F7F7F7;
+}
+#nav-link-logo {
+    color: #1C2123!important;
+    height: 47px;
+    font-weight: 600;
+    padding :1rem 1.5rem 1rem 0rem;
+    border-right: 1px solid gray;
+    margin-right:0.5rem;
+}

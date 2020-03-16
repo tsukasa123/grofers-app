@@ -1,0 +1,451 @@
+.navbar,
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+} 
+.navbar {
+    background-color: #474C4E;
+}
+.start-header {
+    z-index: 10;
+}
+body {
+    max-width: 1440px;
+    background-color: #EEEEEE;
+}
+.container {
+    margin: 0 65px;
+}
+
+/* Start navbar-brand */
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+.navbar-brand:hover {
+    background-color: #1C2123;
+}
+.navbar-brand img {
+   height: 100%;
+   padding: 0.7rem 2rem;
+}
+/* End navbar-brand */
+
+
+/* Start (ul-left) navbar-nav */
+.navbar-nav,
+.nav-link {
+    height: 100%;
+}
+.navbar-left {
+    padding: 12px 143px 11px 16px;
+}
+.navbar-left:hover .navbar-left,
+.navbar-left:hover .search-bar {
+    background-color: #1C2123!important;
+
+}
+#myaccount:hover .myaccount,
+#mycart:hover .mycart {
+    background-color: #1C2123!important;
+}
+
+
+.fa-map-marker-alt {
+    margin-right: 0.3rem;
+}
+.search-box {
+    height: 100%;
+}
+.form-control {
+    position: relative; 
+    margin-right: 1rem;
+    top: 12px;
+    height: 35px;
+    width: 53vw;
+}
+
+.search-btn {
+    position: absolute;
+    color: #999999!important; 
+    font-size: 1.2rem; 
+    top: 17px; 
+    left: 76%;
+}
+/* End (ul-left) navbar-nav */
+
+
+/* Start (ul-right) navbar-nav */
+.nav-link{
+    color: white!important;
+    font-size: 0.9rem;
+}
+.dropdown-right-text {
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+.myaccount {
+    width: 150px;
+    padding-left: 1.5rem!important;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.mycart {
+    width: 130px;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+.fa-shopping-cart {
+    margin-right: 0.5rem;
+}
+
+    /* Start Dropdown Menu */
+    .account-dropdown-menu {
+        width: 20vw;
+        left:auto;
+        right:0px;
+        margin-right: 1rem;
+        padding: 0;
+    }
+    .btn-warning {
+        font-size: 0.9rem;
+        margin: 1.2rem 1rem 1.2rem 1.4rem;
+        width: 85%;
+        height: 43px;
+    }
+    .account-dropdown-menu button,
+    .account-dropdown-menu button:hover {
+        background-color: #E96135;
+        border: 1px solid #E96135;
+        color: white;
+    }
+    .account-dropdown-menu a {
+        font-size: 0.9rem;
+    }
+    .fa-question-circle,
+    .fa-square,
+    .fa-carrot {
+        margin-right: 0.7rem;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    .dropdown-item {
+        padding: 0.9rem 1rem;
+    }
+/* End (ul-right) navbar-nav */
+
+/* Start Items Carousel */
+#carouselExampleControls {
+    width: 1280px;
+    background-color: white;
+}
+.carousel-inner {
+    width: 1040px;
+    margin: 0 auto;
+}
+.carousel-item {
+    height: 140px;
+    background-color: white;
+}
+.row .items {
+    text-align: center;
+}
+.carousel-img {
+    font-size: 0.8rem;
+    height: 70px;
+    width: 70px;
+    margin-left: 3rem;
+    margin-top: 1.6rem;
+}
+.carousel-img p {
+    text-align: center;
+}
+.carousel-control-prev {
+    position: absolute;
+    background-color: #DBDBDB;
+    height: 40px;
+    width: 40px;
+    top: 50px;
+    left: 70px;
+    border-radius: 50%;
+}
+.carousel-control-next {
+    position: absolute;
+    background-color: #DBDBDB;
+    height: 40px;
+    width: 40px;
+    top: 50px;
+    right: 70px;
+    border-radius: 50%;
+}
+/* End Items Carousel */
+
+/* Start Item Cards */
+.cards-wrap {
+    width: 1280px;
+    height: 370px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+.cards-header-left {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.cards-header-right {
+    margin-right: 1rem;
+}
+.btn-outline-secondary {
+    border: 1px solid #C3C3C3;
+    color: orange;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.card {
+    position: relative;
+    width:245px;
+    height:295px;
+    margin-left: 0.5rem;
+    box-shadow: 0 0 10px #cccccc;
+}
+.card-discount {
+    position: absolute;
+    text-align: center;
+    background-color: #529E4F;
+    color: white; 
+    font-size: 0.7rem;
+    width: 60px; 
+    height: 20px; 
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+.card-body {
+    line-height: 11px;
+    padding: 20px 20px 0 20px;
+}
+.card-img-top {   
+    display: block;
+    margin: 15px auto;   
+}
+.card-title {
+    font-weight: 700;
+}
+.card-title-del {
+    color: #C3C3C3;
+    font-weight: normal;
+    font-size: 0.8rem;
+    padding-left: 0.2rem;
+}
+.card-text {
+    color: #686868;
+    font-size: 0.9rem;
+
+}
+.card-gram {
+    color: #C3C3C3;
+    font-size: 0.8rem;
+    line-height: 6px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #E96135;
+    border: 1px solid #E96135;
+    height: 30px;
+    width: 200px;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+.card-footer {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0.6rem;
+    padding: 0 0 0 1rem;
+    border-top: 1px solid #92DDE7;
+    color: #48AFC2;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #EDFBFD;
+}
+.card-footer-text {
+    margin-bottom: 0;
+}
+/* End Item Cards */
+
+/* Start Horizontal Scroll */
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.card {
+    display: inline-block;
+}
+/* End Horizontal Scroll */
+
+
+/* Start Second Horizontal Scroll */
+.second-scrolling-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/img1.png);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    padding-left: 255px;
+}
+.second-cards-wrap {
+    width: 1280px;
+    height: 320px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+/* End Second Horizontal Scroll */
+
+/* Start Carousel */
+#carousel-inner {
+    height: 480px;
+}
+#carousel-control-prev,
+#carousel-control-next {
+    top: 220px;
+}
+#carousel-control-prev {
+    left: 20px;
+}
+#carousel-control-next {
+    right: 20px;
+}
+
+/* End Carousel */
+
+
+/* Start Bank */
+.bank-wrap {
+    width: 1280px;
+    height: 363px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+.bank-cards li {
+    list-style-type: none;
+}
+.bank-items {
+    padding: 0;
+    margin: 0;
+}
+.bank-item {
+    box-shadow: 0 0 10px #999999;
+}
+#card-img-top {
+    margin: 5px 0 0 5px;
+}
+/* End Bank */
+
+/* Start Discount Page */
+.discount-items {
+    max-width: 1440px;
+    height: 1050px;
+}
+.discount-item {
+    width: 1280px;
+    background-color: white;
+    margin-top: 0.5rem;
+    height: 142px;
+}
+.discount-text {
+    padding-top: 2rem;
+}
+.discount-p {
+    color: #4cae1a;
+    font-size:12px;
+    font-weight: 700;
+    line-height: 6px;
+}
+
+/* End Discount Page */
+
+/* Start Footer */
+.footer {
+    width: 1440px;
+    height: 100%;
+    background-color: white;
+    margin-top: 1rem;
+}
+.footer-contents {
+    width: 1280px;
+}
+.top-text {
+    font-size: 14px;
+    height: 80px;
+    padding-top: 1rem;
+    border-bottom: 1px solid #CDCDCD;
+}
+.offers-contents {
+    width: 1280px;
+    height: 140px;
+    border-bottom: 1px solid #CDCDCD;
+}
+.offers-item {
+    padding: 2rem 1rem;
+}
+.offers-text {
+    padding: 0 0 0 1rem;
+}
+.offers-text h6 {
+    font-size: 14px;
+}
+.offers-text p {
+    font-size: 12px;
+}
+.categories-contents {
+    height: 250px;
+    border-bottom: 1px solid #CDCDCD;
+}
+.categories-wrap {
+    padding: 2rem;
+}
+.categories-wrap p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.fa-facebook {
+    color: #cdcdcd;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
+
+
+
+.brands-contents p {
+    font-size: 12px;
+}
+
+.grofers-contents {
+    width: 1280px;
+    height: 500px;
+    margin-top: 5rem;
+}
+.grofers-item {
+    width: 100%;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    color: #666666;
+}
+.grofers-item h4 {
+    margin-bottom: 2rem;
+    color: #666666;
+}
+/* End Footer */
+
+
+
